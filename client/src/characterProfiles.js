@@ -15,10 +15,17 @@ var characterProfiles = [
     },
     {
         fullName: "Goomba",
-        species: "mushroom",
+        species: "goomba",
         url: "https://images.gamebanana.com/img/ico/sprays/goomba_2.gif",
         description: "The Goombas once lived in peace in the Mushroom Kingdom, but they later betrayed them and joined the Koopa Troop. The Goombas are also probably the most common enemy in the entire Mario franchise.",
         stylingClass: "goomba"
+    },
+    {
+        fullName: "Koopa Troopa",
+        species: "koopa",
+        url: "https://art.pixilart.com/a4e9a3b99b7bd84.gif",
+        description: "A race of humanoid turtles that serve under their King, Bowser.",
+        stylingClass: "koopa"
     }
     // {
     //     fullName: "King Bowser Koopa",
