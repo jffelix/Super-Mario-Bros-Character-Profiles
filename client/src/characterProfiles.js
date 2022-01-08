@@ -12,6 +12,13 @@ var characterProfiles = [
         url: "https://thumbs.gfycat.com/WhirlwindPleasedDipper-size_restricted.gif",
         description: "Deuteragonist of the Super Mario Series and Mario Mario's brother.",
         stylingClass: "luigi"
+    },
+    {
+        fullName: "Goomba",
+        species: "mushroom",
+        url: "https://images.gamebanana.com/img/ico/sprays/goomba_2.gif",
+        description: "The Goombas once lived in peace in the Mushroom Kingdom, but they later betrayed them and joined the Koopa Troop. The Goombas are also probably the most common enemy in the entire Mario franchise.",
+        stylingClass: "goomba"
     }
     // {
     //     fullName: "King Bowser Koopa",

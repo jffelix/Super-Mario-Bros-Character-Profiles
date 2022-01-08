@@ -47,6 +47,14 @@ body {
     position: fixed;
 }
 
+.goomba {
+    height: 50;
+    width: 50;
+    bottom: 115;
+    left: 800;
+    position: fixed;
+}
+
 /* .bowser {
     height: 200;
     width: 300;
@@ -68,8 +76,8 @@ body {
 .marioProfile {
     height: 50;
     width: 400;
-    bottom: 300;
-    left: 200;
+    bottom: 400;
+    left: 100;
     position: fixed;
 }
 
@@ -78,5 +86,13 @@ body {
     width: 400;
     top: 125;
     left: 300;
+    position: fixed;
+}
+
+.goombaProfile {
+    height: 50;
+    width: 400;
+    bottom: 375;
+    left: 550;
     position: fixed;
 }
