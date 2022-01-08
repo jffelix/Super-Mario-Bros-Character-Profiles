@@ -1,5 +1,6 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
+import CharacterList from "./sub-components/CharactersList.jsx";
 
 const App = () => {
 
@@ -7,16 +8,21 @@ const App = () => {
         getTitle();
     })
 
+    const [ title, setTitle ] = useState("");
+
     const getTitle = () => {
         axios.get("/title")
         .then(response => {
-            console.log('response.data: ', response.data);
+            setTitle(response.data);
         })
         .catch()
     }
 
     return (
-        <div>Hello from App Component!</div>
+        <div className="app">
+            <h1>{title}</h1>
+            <CharacterList />
+        </div>
     )
 }
 
