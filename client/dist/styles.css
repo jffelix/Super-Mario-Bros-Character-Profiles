@@ -40,7 +40,7 @@ body {
 
 .luigi {
     max-width: 10%;
-    max-height: 10%;
+    max-height: 20%;
     height: 75;
     width: 75;
     top: 325;
@@ -62,6 +62,14 @@ body {
     bottom: 115;
     left: 1000;
     position: fixed;
+}
+
+.hammerBro {
+    height: 150;
+    width: 100;
+    top: 280;
+    right: 500;
+    position: fixed;    
 }
 
 /* .bowser {
@@ -111,5 +119,13 @@ body {
     width: 400;
     bottom: 375;
     left: 1000;
+    position: fixed;
+}
+
+.hammerBroProfile {
+    height: 50;
+    width: 400;
+    top: 100;
+    right: 100;
     position: fixed;
 }
