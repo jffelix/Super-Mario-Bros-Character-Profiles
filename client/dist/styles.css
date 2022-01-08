@@ -72,3 +72,11 @@ body {
     left: 200;
     position: fixed;
 }
+
+.luigiProfile {
+    height: 50;
+    width: 400;
+    top: 125;
+    left: 300;
+    position: fixed;
+}
