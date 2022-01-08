@@ -3,3 +3,28 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+@font-face {
+    font-family: 'Super Mario Brothers';
+    src: url('http://www.fontsaddict.com/fontface/super-mario-brothers.ttf');
+  }
+
+.app {
+    font-family: 'Super Mario Bros.';
+    font-size: 24px;
+}
+
+.mario {
+    height: 150;
+    width: 150;
+}
+
+.luigi {
+    height: 100;
+    width: 100;
+}
+
+.bowser {
+    height: 200;
+    width: 300;
+}
