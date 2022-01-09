@@ -41,36 +41,42 @@ body {
     height: 150;
     width: 150;
     bottom: 105;
-    position: fixed;
+    position: absolute;
 }
 
 .luigi {
-    max-width: 10%;
-    max-height: 20%;
+    max-width: 5%;
+    max-height: 10%;
     height: 75;
     width: 75;
     top: 325;
     left: 675;
-    position: fixed;
+    position: absolute;
 }
 
 .goomba {
+    max-width: 5%;
+    max-height: 10%;
     height: 50;
     width: 50;
     bottom: 115;
-    left: 800;
+    right: 900;
     position: fixed;
 }
 
 .koopa {
+    max-width: 5%;
+    max-height: 10%;
     height: 75;
     width: 50;
     bottom: 115;
-    left: 1000;
+    right: 600;
     position: fixed;
 }
 
 .hammerBro {
+    max-width: 10%;
+    max-height: 20%;
     height: 150;
     width: 100;
     top: 280;
