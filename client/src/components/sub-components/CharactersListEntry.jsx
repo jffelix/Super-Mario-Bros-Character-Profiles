@@ -7,7 +7,6 @@ const CharacterListEntry = (props) => {
 
     const expandProfile = () => {
         setWasProfileClicked(!wasProfileClicked);
-        console.log('wasProfileClicked: ', wasProfileClicked);
     }
 
     return (
@@ -20,7 +19,7 @@ const CharacterListEntry = (props) => {
                     />
             </div>
             { wasProfileClicked ? 
-                <div className={props.entry.stylingClass + "Profile"} >
+                <div className={props.entry.stylingClass + "Profile"}>
                     <div className="profile">
                         <div className="fullName">
                             <p>Name: {props.entry.fullName}</p>
@@ -40,3 +39,17 @@ const CharacterListEntry = (props) => {
 }
 
 export default CharacterListEntry;
+
+{/* <div className={props.entry.stylingClass + "Profile"} >
+<div className="profile">
+    <div className="fullName">
+        <p>Name: {props.entry.fullName}</p>
+    </div>
+    <div className="species">
+        <p>Type: {props.entry.species}</p>
+    </div>
+    <div className="description">
+        <p>{props.entry.description}</p>
+    </div>
+</div>
+</div> : null */}
